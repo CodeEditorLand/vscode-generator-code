@@ -1,35 +1,56 @@
 {
-    "name": "generator-code-dependencies-versions",
-    "description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
-    "version": "0.0.0",
-    "private": true,
-    "dependencies": {
-        "@types/mocha": "^10.0.6",
-        "@types/node": "18.x",
-        "@types/assert": "^1.5.10",
-        "@typescript-eslint/eslint-plugin": "^7.0.2",
-        "@typescript-eslint/parser": "^7.0.2",
-        "eslint": "^8.56.0",
-        "glob": "^10.3.10",
-        "mocha": "^10.3.0",
-        "typescript": "^5.3.3",
-        "@vscode/test-cli": "^0.0.6",
-        "@vscode/test-electron": "^2.3.9",
-        "@vscode/test-web": "^0.0.52",
-        "@types/webpack-env": "^1.18.4",
-        "@types/vscode-notebook-renderer": "^1.72.3",
-        "concurrently": "^8.2.2",
-        "css-loader": "^6.10.0",
-        "fork-ts-checker-webpack-plugin": "^9.0.2",
-        "style-loader": "^3.3.4",
-        "ts-loader": "^9.5.1",
-        "vscode-dts": "^0.3.3",
-        "vscode-notebook-error-overlay": "^1.0.1",
-        "webpack": "^5.90.3",
-        "util": "^0.12.5",
-        "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^4.15.1",
-        "assert": "^2.1.0",
-        "process": "^0.11.10"
-    }
+	"name": "generator-code-dependencies-versions",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"dependencies": {
+		"@types/assert": "^1.5.10",
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"@types/vscode-notebook-renderer": "^1.72.3",
+		"@types/webpack-env": "^1.18.4",
+		"@vscode/test-cli": "^0.0.6",
+		"@vscode/test-electron": "^2.3.9",
+		"@vscode/test-web": "^0.0.52",
+		"assert": "^2.1.0",
+		"concurrently": "^8.2.2",
+		"css-loader": "^6.10.0",
+		"fork-ts-checker-webpack-plugin": "^9.0.2",
+		"glob": "^10.3.10",
+		"mocha": "^10.3.0",
+		"process": "^0.11.10",
+		"style-loader": "^3.3.4",
+		"ts-loader": "^9.5.1",
+		"typescript": "^5.3.3",
+		"util": "^0.12.5",
+		"vscode-dts": "^0.3.3",
+		"vscode-notebook-error-overlay": "^1.0.1",
+		"webpack": "^5.90.3",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
