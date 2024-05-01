@@ -1,32 +1,11 @@
 {
-	"name": "generator-code",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Yeoman generator for Visual Studio Code extensions.",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandGeneratorCode.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "🌆 — Land —",
 		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
 		"url": "HTTPS://Land.PlayForm.Cloud"
 	},
-	"type": "module",
-	"main": "./generators/app/index.js",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"preversion": "npm test",
-		"postversion": "git push && git push --tags"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode/issues"
 	},
 	"dependencies": {
 		"chalk": "5.3.0",
@@ -35,12 +14,33 @@
 		"which": "4.0.0",
 		"yosay": "3.0.0"
 	},
+	"description": "Yeoman generator for Visual Studio Code extensions.",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
 		"@types/node": "20.12.7"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode#readme",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "./generators/app/index.js",
+	"name": "generator-code",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandGeneratorCode.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"postversion": "git push && git push --tags",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"preversion": "npm test"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }

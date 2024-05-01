@@ -1,29 +1,11 @@
 {
-	"name": "generator-code-dependencies-versions",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandGeneratorCode.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "🌆 — Land —",
 		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
 		"url": "HTTPS://Land.PlayForm.Cloud"
 	},
-	"type": "module",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode/issues"
 	},
 	"dependencies": {
 		"@types/assert": "1.5.10",
@@ -37,11 +19,29 @@
 		"ts-loader": "9.5.1",
 		"util": "0.12.5"
 	},
+	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode#readme",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "generator-code-dependencies-versions",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandGeneratorCode.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
