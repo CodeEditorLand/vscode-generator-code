@@ -3,42 +3,42 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "Yeoman generator for Visual Studio Code extensions.",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode#readme",
 	"bugs": {
-		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCode/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandGeneratorCode.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "Playform",
-		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
 	},
 	"type": "module",
 	"main": "./generators/app/index.js",
 	"scripts": {
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"preversion": "npm test",
 		"postversion": "git push && git push --tags"
 	},
 	"dependencies": {
-		"chalk": "^5.3.0",
-		"fast-plist": "^0.1.3",
-		"request-light": "^0.7.0",
-		"which": "^4.0.0",
-		"yeoman-generator": "^6.0.1",
-		"yosay": "^3.0.0"
+		"chalk": "5.3.0",
+		"fast-plist": "0.1.3",
+		"request-light": "0.7.0",
+		"which": "4.0.0",
+		"yosay": "3.0.0"
 	},
 	"devDependencies": {
-		"@types/mocha": "^10.0.6",
-		"@types/node": "^16.18.82",
-		"mocha": "^10.3.0",
-		"typescript-esbuild": "0.4.5",
-		"yeoman-environment": "^3.19.3",
-		"yeoman-test": "^8.2.0"
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"@types/node": "20.12.7"
 	},
 	"publishConfig": {
 		"access": "public"
