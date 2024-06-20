@@ -10,7 +10,7 @@
     "Other"
   ],
   "activationEvents": [],
-  "main": "./dist/extension.js",<% if (insiders) { %>
+  "main": "./out/extension.js",<% if (insiders) { %>
   "enabledApiProposals": [],<% } %>
   "contributes": {
     "commands": [
@@ -21,16 +21,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "<%= pkgManager %> run package",
-    "compile": "<%= pkgManager %> run check-types && <%= pkgManager %> run lint && node esbuild.js",
-    "watch": "npm-run-all -p watch:*",
-    "watch:esbuild": "node esbuild.js --watch",
-    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
-    "package": "<%= pkgManager %> run check-types && <%= pkgManager %> run lint && node esbuild.js --production",
-    "compile-tests": "tsc -p . --outDir out",
-    "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "<%= pkgManager %> run compile-tests && <%= pkgManager %> run compile && <%= pkgManager %> run lint",
-    "check-types": "tsc --noEmit",
+    "vscode:prepublish": "<%= pkgManager %> run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "<%= pkgManager %> run compile && <%= pkgManager %> run lint",
     "lint": "eslint src --ext ts",
     "test": "vscode-test"<% if (insiders) { %>,
     "update-proposed-api": "vscode-dts dev"<% } %>
@@ -42,8 +36,6 @@
     <%- dep("@typescript-eslint/eslint-plugin") %>,
     <%- dep("@typescript-eslint/parser") %>,
     <%- dep("eslint") %>,
-    <%- dep("esbuild") %>,
-    <%- dep("npm-run-all") %>,
     <%- dep("typescript") %>,
     <%- dep("@vscode/test-cli") %>,
     <%- dep("@vscode/test-electron") %><% if (insiders) { %>,
