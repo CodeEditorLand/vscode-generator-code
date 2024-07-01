@@ -15,6 +15,6 @@
 		"yosay": "3.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "18.19.39"
+		"@types/node": "20.14.9"
 	}
 }
