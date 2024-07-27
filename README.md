@@ -1,10 +1,12 @@
 # Yo Code - Extension and Customization Generator
+
 [![npm Package](https://img.shields.io/npm/v/generator-code.svg?style=flat-square)](https://www.npmjs.org/package/generator-code)
 [![NPM Downloads](https://img.shields.io/npm/dm/generator-code.svg)](https://npmjs.org/package/generator-code)
 [![Build Status](https://github.com/microsoft/vscode-generator-code/actions/workflows/tests.yml/badge.svg)](https://github.com/microsoft/vscode-generator-code/actions/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-We have written a Yeoman generator to help get you started. We plan to add templates for most extension/customization types into this.
+We have written a Yeoman generator to help get you started. We plan to add
+templates for most extension/customization types into this.
 
 ## Install the Generator
 
@@ -16,7 +18,8 @@ npm install -g yo generator-code
 
 ## Run Yo Code
 
-The Yeoman generator will walk you through the steps required to create your customization or extension prompting for the required information.
+The Yeoman generator will walk you through the steps required to create your
+customization or extension prompting for the required information.
 
 To launch the generator simply type:
 
@@ -30,10 +33,12 @@ yo code
 
 These templates will:
 
-* Create a base folder structure
-* Template out a rough `package.json`
-* Import any assets required for your extension e.g. tmBundles or the VS Code Library
-* For Extensions: Set-up `launch.json` for running your extension and attaching to a process
+-   Create a base folder structure
+-   Template out a rough `package.json`
+-   Import any assets required for your extension e.g. tmBundles or the VS Code
+    Library
+-   For Extensions: Set-up `launch.json` for running your extension and
+    attaching to a process
 
 ## Command line
 
@@ -69,7 +74,8 @@ Example usages:
 
 ## Run Generator using Docker
 
-If you don't want to install nodejs or any node packages, use this method to containerize the generator.
+If you don't want to install nodejs or any node packages, use this method to
+containerize the generator.
 
 Go into your project directory.
 
@@ -91,16 +97,16 @@ docker run -it -v $(pwd):/usr/src/app vscode-generator-code
 
 ## Local development
 
-After making necessary changes, run `npm link` before running `yo code` to
-test the local version.
+After making necessary changes, run `npm link` before running `yo code` to test
+the local version.
 
 You can learn more about Yeoman generator development on its
 [documentation website](https://yeoman.io/authoring/index.html).
 
 ## History
 
-* 1.0.0: Generates a VS Code extension for TypeScript 2.0.3
-* 0.10.x: Generates a VS Code extension for TypeScript 1.8.10
+-   1.0.0: Generates a VS Code extension for TypeScript 2.0.3
+-   0.10.x: Generates a VS Code extension for TypeScript 1.8.10
 
 ## License
 
