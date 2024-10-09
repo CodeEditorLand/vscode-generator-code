@@ -1,4 +1,6 @@
 {
+	"name": "generator-code-dependencies-versions",
+	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
 	"dependencies": {
 		"@esbuild-plugins/node-globals-polyfill": "0.2.3",
 		"@types/assert": "1.5.10",
@@ -13,7 +15,5 @@
 		"style-loader": "4.0.0",
 		"ts-loader": "9.5.1",
 		"util": "0.12.5"
-	},
-	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
-	"name": "generator-code-dependencies-versions"
+	}
 }
