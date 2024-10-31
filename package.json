@@ -8,7 +8,7 @@
 	},
 	"description": "Yeoman generator for Visual Studio Code extensions.",
 	"devDependencies": {
-		"@types/node": "22.8.4"
+		"@types/node": "22.8.6"
 	},
 	"main": "./generators/app/index.js",
 	"name": "generator-code",
