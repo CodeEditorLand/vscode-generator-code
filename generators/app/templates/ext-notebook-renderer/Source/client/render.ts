@@ -18,6 +18,7 @@ export function render({ container, mime, value }: IRenderInfo) {
 	// Replace this with your custom code!
 	const pre = document.createElement("pre");
 	pre.classList.add(style.json);
+
 	const code = document.createElement("code");
 	code.textContent = `mime type: ${mime}\n\n${JSON.stringify(value, null, 2)}`;
 	pre.appendChild(code);
