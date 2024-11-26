@@ -2,7 +2,7 @@
 	"dependencies": {
 		"@esbuild-plugins/node-globals-polyfill": "0.2.3",
 		"@types/assert": "1.5.11",
-		"@types/node": "22.9.1",
+		"@types/node": "22.10.0",
 		"assert": "2.1.0",
 		"concurrently": "9.1.0",
 		"css-loader": "7.1.2",
