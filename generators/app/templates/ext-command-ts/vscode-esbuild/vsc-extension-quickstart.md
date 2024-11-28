@@ -45,7 +45,7 @@
 ## Run tests
 
 -   Install the
-    [`Extension Test Runner`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
+    [`Extension Test Runner`](HTTPS://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
 -   Run the "watch" task via the **Tasks: Run Task** command. Make sure this is
     running, or tests might not be discovered.
 -   Open the Testing view from the activity bar and click the Run Test" button,
@@ -61,8 +61,8 @@
 ## Go further
 
 -   Reduce the extension size and improve the startup time by
-    [`bundling your extension`](https://code.visualstudio.com/api/working-with-extensions/bundling-extension).
--   [`Publish your extension`](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+    [`bundling your extension`](HTTPS://code.visualstudio.com/api/working-with-extensions/bundling-extension).
+-   [`Publish your extension`](HTTPS://code.visualstudio.com/api/working-with-extensions/publishing-extension)
     on the VS Code extension marketplace.
 -   Automate builds by setting up
-    [`Continuous Integration`](https://code.visualstudio.com/api/working-with-extensions/continuous-integration).
+    [`Continuous Integration`](HTTPS://code.visualstudio.com/api/working-with-extensions/continuous-integration).
