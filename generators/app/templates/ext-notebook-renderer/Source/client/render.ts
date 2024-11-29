@@ -7,8 +7,11 @@ import * as style from "./style.css";
 
 interface IRenderInfo {
 	container: HTMLElement;
+
 	mime: string;
+
 	value: any;
+
 	context: RendererContext<unknown>;
 }
 
@@ -17,11 +20,15 @@ export function render({ container, mime, value }: IRenderInfo) {
 	// Format the JSON and insert it as <pre><code>{ ... }</code></pre>
 	// Replace this with your custom code!
 	const pre = document.createElement("pre");
+
 	pre.classList.add(style.json);
 
 	const code = document.createElement("code");
+
 	code.textContent = `mime type: ${mime}\n\n${JSON.stringify(value, null, 2)}`;
+
 	pre.appendChild(code);
+
 	container.appendChild(pre);
 }
 
