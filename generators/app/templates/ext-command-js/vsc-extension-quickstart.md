@@ -39,7 +39,7 @@
 ## Run tests
 
 -   Install the
-    [`Extension Test Runner`](HTTPS://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
+    [`Extension Test Runner`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
 -   Open the Testing view from the activity bar and click the Run Test" button,
     or use the hotkey `Ctrl/Cmd + ; A`
 -   See the output of the test result in the Test Results view.
@@ -52,13 +52,13 @@
 
 ## Go further
 
--   [`Follow UX guidelines`](HTTPS://code.visualstudio.com/api/ux-guidelines/overview)
+-   [`Follow UX guidelines`](https://code.visualstudio.com/api/ux-guidelines/overview)
     to create extensions that seamlessly integrate with VS Code's native
     interface and patterns.
--   [`Publish your extension`](HTTPS://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+-   [`Publish your extension`](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
     on the VS Code extension marketplace.
 -   Automate builds by setting up
-    [`Continuous Integration`](HTTPS://code.visualstudio.com/api/working-with-extensions/continuous-integration).
+    [`Continuous Integration`](https://code.visualstudio.com/api/working-with-extensions/continuous-integration).
 -   Integrate to the
-    [`report issue`](HTTPS://code.visualstudio.com/api/get-started/wrapping-up#issue-reporting)
+    [`report issue`](https://code.visualstudio.com/api/get-started/wrapping-up#issue-reporting)
     flow to get issue and feature requests reported by users.

@@ -26,12 +26,12 @@ transifex, follow these steps:
     `vscode-extensions` projects.
 -   Set the API token to the environment variable `TRANSIFEX_API_TOKEN`.
 -   Check out the `main` branch of the
-    [`VS Code repository`](HTTPS://github.com/Microsoft/vscode).
+    [`VS Code repository`](https://github.com/Microsoft/vscode).
     -   Preferably, place the VS Code repo next to the language pack extension
         (so both have the same parent folder).
     -   `cd vscode` and run `yarn` to initialize the VS Code repo. More
         information on how to build VS Code you can find
-        [`here`](HTTPS://github.com/Microsoft/vscode/wiki/How-to-Contribute).
+        [`here`](https://github.com/Microsoft/vscode/wiki/How-to-Contribute).
     -   If the language pack extension is placed next to the VS Code repository:
         `npm run update-localization-extension <%- lpLanguageId %>`
     -   Otherwise:
