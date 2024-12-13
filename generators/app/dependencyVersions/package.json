@@ -1,4 +1,6 @@
 {
+	"name": "generator-code-dependencies-versions",
+	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
 	"dependencies": {
 		"@codeeditorland/dts": "0.0.1",
 		"@codeeditorland/notebook-error-overlay": "0.0.1",
@@ -20,7 +22,5 @@
 		"ts-loader": "^9.5.1",
 		"util": "^0.12.5"
 	},
-	"description": "Helper file to manage the versions of the node modules used by the generators. Named package.json so the VS Code dependencies completions work. Must be in a subfolder due to #325",
-	"devDependencies": {},
-	"name": "generator-code-dependencies-versions"
+	"devDependencies": {}
 }
