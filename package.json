@@ -15,7 +15,7 @@
 		"yosay": "3.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "22.13.0",
+		"@types/node": "22.13.1",
 		"jsonc-parser": "3.3.1"
 	}
 }
